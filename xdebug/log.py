@@ -25,6 +25,8 @@ def debug(message=None):
     # Write message to output file
     logging.debug(message)
 
+    # Write message to console
+    print('XDEBUG: ' + message)
 
 def info(message=None):
     if message is None:
